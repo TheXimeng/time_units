@@ -8,7 +8,14 @@ with the following methods:
 * Microseconds - [`AsDuration::micros`]
 * Nanoseconds - [`AsDuration::nanos`]
 
-# Examples
+# Usage
+in **Cargo.toml**:
+```toml
+[dependencies]
+time_units = { git = "https://github.com/TheXimeng/time_units.git" }
+```
+
+## Examples
 using [`std::thread::sleep`]
 
 ```rust
