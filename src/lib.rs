@@ -24,7 +24,6 @@
 use std::time::Duration;
 
 /// works as extension on types to support translation into [`std::time::Duration`]
-///
 pub trait AsDuration {
     fn secs(&self) -> Duration;
     fn millis(&self) -> Duration;
