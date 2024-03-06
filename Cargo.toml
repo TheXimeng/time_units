@@ -1,7 +1,7 @@
 [package]
-name = "duration_ext"
+name = "time_units"
 version = "0.1.0"
 edition = "2021"
-description = "Extension methods to create std::io::Duration."
+description = "Biolerplate extension methods on numbers for creating std::io::Duration's."
 
 [dependencies]

@@ -1,4 +1,4 @@
-use duration_ext::AsDuration;
+use time_units::AsDuration;
 
 #[test]
 fn equality() {
