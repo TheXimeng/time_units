@@ -10,7 +10,7 @@
 //! using [`std::thread::sleep`]
 //!
 //! ```no_run
-//! use duration_ext::*;
+//! use time_units::*;
 //! use std::thread::sleep;
 //!
 //! fn main() {
