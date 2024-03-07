@@ -19,7 +19,7 @@ time_units = { git = "https://github.com/TheXimeng/time_units.git" }
 using [`std::thread::sleep`]
 
 ```rust
-use duration_ext::*;
+use time_units::*;
 use std::thread::sleep;
 
 fn main() {
